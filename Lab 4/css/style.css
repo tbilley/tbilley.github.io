@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #5A5656;
+}
+
+
+body{
+	background-color: antiquewhite;
+}
+
+li{
+	margin: 10px;
+	text-decoration: none;
+	
+}
+
+
+img{
+	width: 100px;
+}
+
+ul#top-nav li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.pills{
+	background-color:#E3585A;
+	border-radius:50px;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	color:white;
+}
+
+.pills a{
+	color:white;
+	text-decoration: none;
+}
+
+.nav-image{
+	float: left;
+}
+
+
+
+h2{
+	margin-top: 0px;
+}
+
+
+.intro{
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	
+}
+
+.container{
+	width: 600px;
+	overflow: auto;
+}
+
+.slider-inner{
+	width: 500px;
+	height:300px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+	
+}
+
+.slider-inner img{
+	display: none;
+	width: 500px;
+	height:300px;
+	margin-left: 100px;
+}
+
+.slider-inner img.active{
+	display: inline-block;
+}
+
+.prev, .next{
+	cursor: pointer;
+	
+	
+}
+
+.prev{
+	position: relative;
+	margin-right: 45px;
+	z-index: 100;
+	margin-bottom: -200px;
+	
+}
+
+.next{
+	position: relative;
+	margin-left: 400px;
+	z-index: 100;
+	float: right;
+	margin-top: -200px;
+	
+}
+
